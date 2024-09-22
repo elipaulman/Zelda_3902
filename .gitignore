@@ -1,0 +1,28 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+*.o
+*.log
+*.obj
+*.out
+*.exe
+
+# Ignore user-specific config
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories
+node_modules/
+venv/
+dist/
+target/
+
+# Ignore Git's metadata
+.git/config
+.git/hooks/
+.git/logs/
+.git/info/
+.git/index.lock
