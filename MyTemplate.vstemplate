@@ -1,0 +1,80 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Sprint2WIP</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Sprint2WIP</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Sprint0.csproj" File="Sprint0.csproj" ReplaceParameters="true">
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="bin" TargetFolderName="bin">
+          <Folder Name="DesktopGL" TargetFolderName="DesktopGL">
+            <Folder Name="Content" TargetFolderName="Content">
+              <ProjectItem ReplaceParameters="false" TargetFileName="File.xnb">File.xnb</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mario.xnb">mario.xnb</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Roboto.xnb">Roboto.xnb</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="File.xnb">File.xnb</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="mario.xnb">mario.xnb</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="obj" TargetFolderName="obj">
+          <Folder Name="DesktopGL" TargetFolderName="DesktopGL">
+            <Folder Name="net6.0" TargetFolderName="net6.0">
+              <Folder Name="Content" TargetFolderName="Content">
+                <ProjectItem ReplaceParameters="false" TargetFileName=".mgcontent">.mgcontent</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName=".mgstats">.mgstats</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="File.mgcontent">File.mgcontent</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="mario.mgcontent">mario.mgcontent</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="Roboto.mgcontent">Roboto.mgcontent</ProjectItem>
+              </Folder>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName=".mgcontent">.mgcontent</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName=".mgstats">.mgstats</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="File.mgcontent">File.mgcontent</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="mario.mgcontent">mario.mgcontent</ProjectItem>
+          </Folder>
+          <Folder Name="Windows" TargetFolderName="Windows">
+            <ProjectItem ReplaceParameters="false" TargetFileName=".mgstats">.mgstats</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Content.mgcb">Content.mgcb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="File.spritefont">File.spritefont</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="mario.png">mario.png</ProjectItem>
+      </Folder>
+      <Folder Name="Link" TargetFolderName="Link">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DownMovingLinkState.cs">DownMovingLinkState.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DownNonMovingLinkState.cs">DownNonMovingLinkState.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILink.cs">ILink.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILinkState.cs">ILinkState.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LeftMovingLinkState.cs">LeftMovingLinkState.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Link.cs">Link.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="app.manifest">app.manifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Game1.cs">Game1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Icon.bmp">Icon.bmp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Icon.ico">Icon.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IController.cs">IController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ISprite.cs">ISprite.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KeyboardController.cs">KeyboardController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LinkStateMachine.cs">LinkStateMachine.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MouseController.cs">MouseController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MovingAnimatedSprite.cs">MovingAnimatedSprite.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MovingNonAnimatedSprite.cs">MovingNonAnimatedSprite.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NonMovingAnimatedSprite.cs">NonMovingAnimatedSprite.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NonMovingNonAnimatedSprite.cs">NonMovingNonAnimatedSprite.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TextSprite.cs">TextSprite.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
